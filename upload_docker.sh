@@ -6,7 +6,7 @@
 # Step 1:
 # Create dockerpath
 # dockerpath=<your docker ID/path>
-dockerpath="osatoedosa/predictionapp"
+dockerpath="osatoedosa/predictionapp:v1.0.0"
 
 # Step 2:  
 # Authenticate & tag
