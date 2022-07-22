@@ -11,7 +11,7 @@ dockerpath="osatoedosa/predictionapp"
 # Step 2:  
 # Authenticate & tag
 docker login -u osatoedosa
-docker tag predictionapp:v.1.0 ${dockerpath}
+docker tag predictionapp ${dockerpath}
 echo "Docker ID and Image: $dockerpath"
 
 # Step 3:

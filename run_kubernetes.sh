@@ -9,7 +9,8 @@ dockerpath="osatoedosa/predictionapp"
 
 # Step 2
 # Run the Docker Hub container with kubernetes
-kubectl run predictionapp --image=$dockerpath
+kubectl run predictionapp --image=$dockerpath --port=80
+# kubectl create deploy predictionapp --image=$dockerpath
 
 
 # Step 3:
